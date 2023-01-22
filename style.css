@@ -1,25 +1,49 @@
+body {
+  font-family: "Minecraft", sans-serif;
+  background-image: url(img/fondo.jpg);
+  margin-top: 100px;
+}
+
 section#principal {
+  font-size: 1.2em;
   display: inline-block;
   margin: 0 auto;
   text-align: center;
   width: 100%;
 }
 
+section#principal input {
+  /* font-family: "Minecraft", sans-serif; */
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+
+input#iniciar input {
+  color: chartreuse;
+}
+
 article#comandos {
   border: 1px solid lightgrey;
+  background-color: #fff;
+  border-radius: 10px;
   display: inline-block;
   min-height: 300px;
   vertical-align: top;
-  width: 35%;
+  width: 250px;
 }
 
 article#tablero {
+  padding: 15px;
   border: 1px solid lightseagreen;
+  background-color: #fff;
+  border-radius: 10px;
   display: inline-block;
-  min-height: 300px;
+  min-height: auto;
   margin: 0 auto;
   text-align: center;
-  width: 50%;
+  width: auto;
 }
 article#tablero input {
   font-size: 3em;
